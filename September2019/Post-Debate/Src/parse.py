@@ -1,10 +1,10 @@
 import bs4
 import csv
 
-soup = bs4.BeautifulSoup(open(r"C:\Users\39174\Documents\GitHub\NeoliberalPollingData\JulyDebate\Post-Debate\Raw\July 2019 Neoliberal Project Post-Debate Straw Poll (30 July Debate).html", 'r'), 'html.parser')
-fout = csv.writer(open(r"C:\Users\39174\Documents\GitHub\NeoliberalPollingData\JulyDebate\Post-Debate\CSV\night1.csv", 'wb'))
+soup = bs4.BeautifulSoup(open(r"C:\Users\39174\Documents\GitHub\NeoliberalPollingData\September2019\Post-Debate\Raw\September 2019 Neoliberal Project Post-Debate Straw Poll.html", 'r'), 'html.parser')
+fout = csv.writer(open(r"C:\Users\39174\Documents\GitHub\NeoliberalPollingData\September2019\Post-Debate\Recode\September2019.csv", 'wb'))
 
-fout.writerow(["Amy Klobuchar", "Beto O'Rourke", "Pete Buttigieg", "Steve Bullock", "John Delaney", "John Hickenlooper", "Tim Ryan", "Marianne Williamson", "Elizabeth Warren", "Bernie Sanders"])
+fout.writerow(["Joe Biden", "Cory Booker", "Pete Buttigieg", "Julian Castro", "Kamala Harris", "Amy Klobuchar", "Beto O'Rourke", "Bernie Sanders", "Elizabeth Warren", "Andrew Yang"])
 
 for ballot in soup.find_all("div", "ballot"):
     temp = []
