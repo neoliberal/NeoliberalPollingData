@@ -42,23 +42,23 @@ graph export "C:\Users\39174\Documents\GitHub\NeoliberalPollingData\October2019\
 
 
 
-graph twoway line ( JoeBiden CoryBooker PeteButtigieg AmyKlobuchar ElizabethWarren) Month, ytitle("Average Ranking") ysc(reverse) title("Favorites") scheme(economist) r2title("← Less favored — More favored →")
+graph twoway line ( JoeBiden CoryBooker PeteButtigieg AmyKlobuchar ElizabethWarren) Month, ytitle("Average Ranking") ysc(reverse) title("Favorites") scheme(economist) r2title("← Less favorable — More favorable →")
 graph export "C:\Users\39174\Documents\GitHub\NeoliberalPollingData\October2019\Graphs\\Favorites.png", as(png) name("Graph") replace
 
 
-graph twoway line (JulianCastro KamalaHarris BetoORourke) Month, ytitle("Average Ranking") ysc(reverse) title("Former Favorites") scheme(economist) r2title("← Less favored — More favored →")
+graph twoway line (JulianCastro KamalaHarris BetoORourke) Month, ytitle("Average Ranking") ysc(reverse) title("Former Favorites") scheme(economist) r2title("← Less favorable — More favorable →")
 graph export "C:\Users\39174\Documents\GitHub\NeoliberalPollingData\October2019\Graphs\\FormerFavorites.png", as(png) name("Graph") replace
 
 
 
-graph twoway line (BernieSanders ElizabethWarren AndrewYang TulsiGabbard) Month, ytitle("Average Ranking") ysc(reverse) title("Progressives and Outsiders") scheme(economist) r2title("← Less favored — More favored →")
+graph twoway line (BernieSanders ElizabethWarren AndrewYang TulsiGabbard) Month, ytitle("Average Ranking") ysc(reverse) title("Progressives and Outsiders") scheme(economist) r2title("← Less favorable — More favorable →")
 graph export "C:\Users\39174\Documents\GitHub\NeoliberalPollingData\October2019\Graphs\\ProgressivesOutsiders.png", as(png) name("Graph") replace
 
 
 
-graph twoway line (JoeBiden CoryBooker PeteButtigieg JulianCastro KamalaHarris AmyKlobuchar BetoORourke) Month, ytitle("Average Ranking") ysc(reverse) title("Moderates") scheme(economist) r2title("← Less favored — More favored →")
+graph twoway line (JoeBiden CoryBooker PeteButtigieg JulianCastro KamalaHarris AmyKlobuchar BetoORourke) Month, ytitle("Average Ranking") ysc(reverse) title("Moderates") scheme(economist) r2title("← Less favorable — More favorable →")
 graph export "C:\Users\39174\Documents\GitHub\NeoliberalPollingData\October2019\Graphs\\Moderates.png", as(png) name("Graph") replace
 
 
-graph twoway line (ElizabethWarren JoeBiden BernieSanders PeteButtigieg) Month, ytitle("Average Ranking") ysc(reverse) title("Top Polling Candidates") subtitle("By RCP Average") scheme(economist) r2title("← Less favored — More favored →")
+graph twoway line (ElizabethWarren JoeBiden BernieSanders PeteButtigieg) Month, ytitle("Average Ranking") ysc(reverse) title("Top Polling Candidates") subtitle("By RCP Average") scheme(economist) r2title("← Less favorable — More favorable →")
 graph export "C:\Users\39174\Documents\GitHub\NeoliberalPollingData\October2019\Graphs\\Top4.png", as(png) name("Graph") replace
